@@ -1,0 +1,1 @@
+WAR_FILE_URL=http://jenkins.moos.local:8080/job/ticket-monster-maven-build/lastSuccessfulBuild/org.jboss.examples$ticket-monster/artifact/org.jboss.examples/ticket-monster/2.7.0.Final/ticket-monster-2.7.0.Final.war

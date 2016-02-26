@@ -1,0 +1,21 @@
+#!/bin/sh
+
+echo "==============Starting the Ticket Monter Image Build================="
+
+echo "====Using Paths===="
+
+echo "JBOSS Home:  $JBOSS_HOME"
+
+JBOSS_WAR_FILE_NAME="$JBOSS_HOME/standalone/deployments/ROOT.war"
+
+echo "JBOSS War File Name: $JBOSS_WAR_FILE_NAME" 
+echo "WAR File URL: ${WAR_FILE_URL}"
+
+echo "Running command: curl -o $JBOSS_WAR_FILE_NAME -O ${WAR_FILE_URL}"
+
+curl -o $JBOSS_WAR_FILE_NAME -O ${WAR_FILE_URL}
+
+
+echo "=============Ending the Ticket Monster Image Build===================="
+
+exit 0
